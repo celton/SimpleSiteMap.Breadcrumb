@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Parent2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Parent2</h2>
+
+<h3>Ir para / Go to:</h3>
+
+<a href="@Url.Action("BrotherOfParent2", "Home", new { Area = "" })">Brother Of Parent 2</a>
+<br />
+<a href="@Url.Action("Index", "Children2", new { Area = "Children" })">Children number 2</a>
